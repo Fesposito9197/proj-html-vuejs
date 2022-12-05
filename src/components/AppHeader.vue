@@ -42,7 +42,7 @@ ul {
   margin-top: 20px;
   align-items: center;
   li {
-    margin-left: 20px;
+    margin-left: 30px;
   }
 }
 .my-btn {
