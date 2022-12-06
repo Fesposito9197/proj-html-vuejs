@@ -9,7 +9,9 @@ export default {
     <div class="text-white business">
       <h2 class="fw-bold fs-1">Business Planning</h2>
       <h2 class="fw-light">Digital Technology</h2>
-      <h2 class="fw-bold fs-1">Modern Solution!</h2>
+      <h2 class="fw-bold fs-1">
+        Modern Solution! Tu non lo sai ma sei bellissimo
+      </h2>
       <p class="fw-light">
         When, while the lovely valley teems with vapour around meand the
         meridian sun strikes the upper surface.

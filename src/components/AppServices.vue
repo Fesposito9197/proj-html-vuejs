@@ -7,7 +7,7 @@ export default {
 <template>
   <section class="service">
     <div class="text-center">
-      <small>Our Services</small>
+      <small class="my-red-title">Our Services</small>
       <h1><strong>What</strong> We Do</h1>
       <p>When, while the lovely valley teems with vapour around meand the</p>
     </div>
@@ -52,9 +52,6 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-small {
-  color: #ef5a6c;
-}
 .service {
   margin: 40px 0;
 }
