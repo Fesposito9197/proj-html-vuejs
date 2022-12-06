@@ -6,7 +6,7 @@ import AppPricing from "./AppPricing.vue";
 import AppBlog from "./AppBlog.vue";
 import AppTestimonial from "./AppTestimonial.vue";
 import AppPartners from "./AppPartners.vue";
-import AppSubscribe from "./AppSubscribe.vue";
+
 export default {
   name: "AppMain",
   components: {
@@ -17,7 +17,6 @@ export default {
     AppBlog,
     AppTestimonial,
     AppPartners,
-    AppSubscribe,
   },
 };
 </script>
@@ -31,7 +30,6 @@ export default {
     <AppBlog />
     <AppTestimonial />
     <AppPartners />
-    <AppSubscribe />
   </main>
 </template>
 

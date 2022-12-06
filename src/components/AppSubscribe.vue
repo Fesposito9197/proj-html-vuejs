@@ -39,7 +39,11 @@ export default {
   border-radius: 20px;
   background-color: #ef5a6c;
 }
-
+.subscribe {
+  top: 0;
+  bottom: 0;
+  transform: translate(10%, -24%);
+}
 .sub {
   width: 400px;
   padding: 10px 10px;

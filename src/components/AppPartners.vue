@@ -18,6 +18,7 @@ export default {
 .partners {
   margin-top: 60px;
   margin-bottom: 80px;
+  padding-bottom: 100px;
   img {
     object-fit: contain;
   }
