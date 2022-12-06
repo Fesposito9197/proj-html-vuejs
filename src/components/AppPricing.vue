@@ -14,7 +14,7 @@ export default {
         meridian sun strikes the upper surface.
       </p>
     </div>
-    <div class="container d-flex prices-card">
+    <div class="container d-flex prices-card justify-content-between">
       <div class="price-card text-center">
         <h2 class="fw-bold">Designing</h2>
         <p class="fw-semibold">PROCESS</p>
@@ -82,10 +82,12 @@ export default {
   border-radius: 20px;
   background-color: #fefefe;
   padding: 20px;
-  width: 400px;
+  width: 330px;
   margin-left: 20px;
-
   cursor: pointer;
+  ul {
+    margin-top: 70px;
+  }
 }
 .prices-card {
   position: absolute;
