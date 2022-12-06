@@ -114,11 +114,13 @@ export default {
     rgba(184, 38, 110, 1) 48%,
     rgba(243, 93, 107, 1) 100%
   );
-
   color: white;
   .my-btn {
     background: white;
     color: #ef5a6c;
+  }
+  .big-price {
+    color: #e9ecef42;
   }
 }
 

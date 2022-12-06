@@ -68,7 +68,7 @@ export default {
   background-color: white;
 }
 .small-card {
-  width: 300px;
+  width: 20%;
   padding: 30px;
   border-radius: 20px;
   background-color: #030331;
@@ -78,7 +78,7 @@ export default {
   }
 }
 .my-big-card {
-  width: 715px;
+  width: 55%;
 
   padding-left: 10px;
   padding-right: 10px;
