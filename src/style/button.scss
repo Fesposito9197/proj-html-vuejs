@@ -11,12 +11,16 @@
 .my-btn-blue {
   background: linear-gradient(
     90deg,
-    rgba(6, 159, 205, 1) 56%,
-    rgba(30, 65, 132, 1) 82%
+    rgba(6, 159, 205, 1) 16%,
+    rgba(31, 61, 130, 1) 100%
   );
 }
 .my-btn-red {
-  background: #ef5a6c;
+  background: linear-gradient(
+    90deg,
+    rgba(184, 38, 110, 1) 11%,
+    rgba(243, 93, 107, 1) 100%
+  );
 }
 .my-btn-white {
   background: white;

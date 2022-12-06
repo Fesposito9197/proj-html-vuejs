@@ -49,9 +49,21 @@ img {
 }
 .my-card {
   width: 400px;
-
   border-radius: 20px;
   box-shadow: 5px 5px 22px 30px rgba(244, 244, 244, 0.62);
+  cursor: pointer;
+}
+
+.my-card:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(184, 38, 110, 1) 11%,
+    rgba(243, 93, 107, 1) 100%
+  );
+  color: white;
+  small {
+    color: white !important;
+  }
 }
 .my-card-body {
   p,

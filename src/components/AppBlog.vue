@@ -60,7 +60,7 @@ export default {
   padding: 350px 0 100px;
 }
 .card-info {
-  padding-top: 145px;
+  padding-top: 175px;
 }
 .my-btn {
   padding: 5px 10px;
@@ -78,7 +78,7 @@ export default {
   }
 }
 .my-big-card {
-  width: 700px;
+  width: 715px;
 
   padding-left: 10px;
   padding-right: 10px;

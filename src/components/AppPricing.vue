@@ -84,6 +84,7 @@ export default {
   padding: 20px;
   width: 330px;
   margin-left: 20px;
+  box-shadow: 0px 50px 50px 4px rgba(0, 0, 0, 0.09);
   cursor: pointer;
   ul {
     margin-top: 70px;
@@ -96,7 +97,12 @@ export default {
   top: 100%;
 }
 .price-card:hover {
-  background-color: #ef5a6c;
+  background: linear-gradient(
+    164deg,
+    rgba(184, 38, 110, 1) 48%,
+    rgba(243, 93, 107, 1) 100%
+  );
+
   color: white;
   .my-btn {
     background: white;

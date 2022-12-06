@@ -37,7 +37,11 @@ export default {
 .card-subscribe {
   padding: 50px;
   border-radius: 20px;
-  background-color: #ef5a6c;
+  background: linear-gradient(
+    164deg,
+    rgba(184, 38, 110, 1) 48%,
+    rgba(243, 93, 107, 1) 100%
+  );
 }
 .subscribe {
   top: 0;
