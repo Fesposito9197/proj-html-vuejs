@@ -4,6 +4,8 @@ import AppProject from "./AppProject.vue";
 import AppPortofolio from "./AppPortofolio.vue";
 import AppPricing from "./AppPricing.vue";
 import AppBlog from "./AppBlog.vue";
+import AppTestimonial from "./AppTestimonial.vue";
+import AppPartners from "./AppPartners.vue";
 export default {
   name: "AppMain",
   components: {
@@ -12,6 +14,8 @@ export default {
     AppPortofolio,
     AppPricing,
     AppBlog,
+    AppTestimonial,
+    AppPartners,
   },
 };
 </script>
@@ -23,6 +27,8 @@ export default {
     <AppPortofolio />
     <AppPricing />
     <AppBlog />
+    <AppTestimonial />
+    <AppPartners />
   </main>
 </template>
 

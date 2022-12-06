@@ -60,7 +60,7 @@ export default {
   padding: 90px 0;
 }
 .card-info {
-  padding-top: 170px;
+  padding-top: 145px;
 }
 .my-btn {
   padding: 5px 10px;
@@ -79,7 +79,9 @@ export default {
 }
 .my-big-card {
   width: 700px;
-  height: 300px;
+
+  padding-left: 10px;
+  padding-right: 10px;
   border-radius: 20px;
   background-image: url(../assets/headway-537308-unsplash-1380x703.jpg);
   background-size: cover;
