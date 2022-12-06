@@ -22,7 +22,7 @@ export default {
       <img src="../assets/white-logo-2.png" alt="" />
       <div class="d-flex">
         <ul>
-          <li v-for="(header, index) in info">
+          <li v-for="header in info">
             {{ header }}
           </li>
         </ul>
