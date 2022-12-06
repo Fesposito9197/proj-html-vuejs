@@ -8,12 +8,17 @@ export default {
     AppMainVue,
     AppFooterVue,
   },
+  data() {
+    return {
+      Header: ["Home", "About", "Services", "Blog", "Contact", "Portafolio"],
+    };
+  },
 };
 </script>
 
 <template>
   <div>
-    <AppHeaderVue />
+    <AppHeaderVue :info="Header" />
     <AppMainVue />
     <AppFooterVue />
   </div>

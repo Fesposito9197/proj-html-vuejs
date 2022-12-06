@@ -5,6 +5,14 @@ export default {
   components: {
     AppHero,
   },
+  props: {
+    info: Object,
+  },
+  data() {
+    return {
+      active: 0,
+    };
+  },
 };
 </script>
 
@@ -14,12 +22,9 @@ export default {
       <img src="../assets/white-logo-2.png" alt="" />
       <div class="d-flex">
         <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Services</li>
-          <li>Blog</li>
-          <li>Contact</li>
-          <li>Portafolio</li>
+          <li v-for="(header, index) in info">
+            {{ header }}
+          </li>
         </ul>
         <button class="my-btn my-btn-blue">Sign in</button>
       </div>
@@ -43,7 +48,11 @@ ul {
   align-items: center;
   li {
     margin-left: 30px;
+    cursor: pointer;
   }
+}
+li:hover {
+  color: #ef5a6c;
 }
 .my-btn {
   margin-left: 40px;

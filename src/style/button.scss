@@ -15,12 +15,18 @@
     rgba(31, 61, 130, 1) 100%
   );
 }
+.my-btn-blue:hover {
+  box-shadow: 5px 5px 49px 5px rgba(7, 154, 201, 0.2);
+}
 .my-btn-red {
   background: linear-gradient(
     90deg,
     rgba(184, 38, 110, 1) 11%,
     rgba(243, 93, 107, 1) 100%
   );
+}
+.my-btn-red:hover {
+  box-shadow: 5px 5px 49px 5px rgba(240, 92, 108, 0.58);
 }
 .my-btn-white {
   background: white;
