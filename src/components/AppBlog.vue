@@ -57,7 +57,7 @@ export default {
 
 <style lang="scss" scoped>
 .blogs {
-  padding: 90px 0;
+  padding: 350px 0 100px;
 }
 .card-info {
   padding-top: 145px;

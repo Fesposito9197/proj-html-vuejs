@@ -73,7 +73,7 @@ export default {
 <style lang="scss" scoped>
 .price-list {
   background-color: #0a164f;
-  padding: 20px 0;
+  padding-bottom: 240px;
 }
 .price-title {
   padding: 30px 0;
@@ -84,7 +84,14 @@ export default {
   padding: 20px;
   width: 400px;
   margin-left: 20px;
+
   cursor: pointer;
+}
+.prices-card {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 100%;
 }
 .price-card:hover {
   background-color: #ef5a6c;
