@@ -6,7 +6,7 @@ export default {
 
 <template>
   <section class="price-list position-relative">
-    <div class="text-center text-white">
+    <div class="text-center text-white price-title">
       <small class="my-red-title">Price List</small>
       <h1><strong>Our</strong> Pricing</h1>
       <p>
@@ -73,8 +73,11 @@ export default {
 <style lang="scss" scoped>
 .price-list {
   background-color: #0a164f;
+  padding: 20px 0;
 }
-
+.price-title {
+  padding: 30px 0;
+}
 .price-card {
   border-radius: 20px;
   background-color: #fefefe;
