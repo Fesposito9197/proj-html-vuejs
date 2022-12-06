@@ -16,6 +16,7 @@ export default {
     </div>
     <div class="container d-flex prices-card justify-content-between">
       <div class="price-card text-center">
+        <div class="big-price">40</div>
         <h2 class="fw-bold">Designing</h2>
         <p class="fw-semibold">PROCESS</p>
         <i class="fa-solid fa-dollar-sign"></i>
@@ -32,7 +33,8 @@ export default {
           Order Now <i class="fa-solid fa-arrow-right"></i>
         </button>
       </div>
-      <div class="price-card text-center">
+      <div class="price-card text-center position-relative">
+        <div class="big-price">60</div>
         <h2 class="fw-bold">Devolping</h2>
         <p class="fw-semibold">PRODUCT</p>
         <i class="fa-solid fa-dollar-sign"></i>
@@ -50,6 +52,7 @@ export default {
         </button>
       </div>
       <div class="price-card text-center">
+        <div class="big-price">80</div>
         <h2 class="fw-bold">Supporting</h2>
         <p class="fw-semibold">CLIENTS</p>
         <i class="fa-solid fa-dollar-sign"></i>
@@ -74,6 +77,15 @@ export default {
 .price-list {
   background-color: #0a164f;
   padding-bottom: 240px;
+}
+.big-price {
+  z-index: 99;
+  top: -113px;
+  position: absolute;
+  color: #00000038;
+  font-size: 250px;
+  margin-left: 30px;
+  font-weight: bold;
 }
 .price-title {
   padding: 30px 0;
