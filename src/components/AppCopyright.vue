@@ -40,13 +40,7 @@ p {
   bottom: 55%;
   right: 13%;
 }
-.circle {
-  border-radius: 100%;
-  height: 30px;
-  width: 30px;
-  line-height: 30px;
-  text-align: center;
-}
+
 .bg-celeste {
   background-color: #527ceb;
   height: 50px;
