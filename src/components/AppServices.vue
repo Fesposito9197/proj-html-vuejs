@@ -90,8 +90,8 @@ export default {
 }
 i {
   color: white;
-  left: 39%;
-  bottom: -9%;
+  left: 45%;
+  bottom: -6%;
 }
 .service-card:hover {
   background-color: #0a164f;
